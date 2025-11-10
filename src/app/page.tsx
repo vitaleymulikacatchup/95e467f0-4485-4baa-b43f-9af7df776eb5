@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { Calendar, ChefHat, DollarSign, Heart, HelpCircle, Leaf, Mail, MessageCircle, Pizza, ScrollText, Sparkles, Star, TrendingUp, User, Users } from "lucide-react";
+import { Calendar, ChefHat, DollarSign, Heart, HelpCircle, Leaf, Mail, MessageCircle, Pizza, ScrollText, Sparkles, Star, TrendingUp, User, Users, Award, Instagram, Linkedin, Twitter } from "lucide-react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -285,11 +285,11 @@ export default function Home() {
               imageAlt: "Mario Rossi, Head Chef at LeoPizzas",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/chefmario"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/mariorossi"
                 }
               ]
@@ -303,11 +303,11 @@ export default function Home() {
               imageAlt: "Sophia Martinez, Restaurant Manager",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/sophiaM"
                 },
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/sophia.martinez"
                 }
               ]
@@ -321,11 +321,11 @@ export default function Home() {
               imageAlt: "Carlos Rodriguez, Operations Director",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/carlosrodriguez"
                 },
                 {
-                  icon: "Mail",
+                  icon: Mail,
                   url: "mailto:carlos@leopizzas.com"
                 }
               ]
@@ -384,7 +384,7 @@ export default function Home() {
           title="Featured On"
           description="Recognized by Las Vegas food critics and local media"
           tag="Press"
-          tagIcon={"Award"}
+          tagIcon={Award}
           textboxLayout="default"
           logos={[
             "/placeholders/placeholder1.webp",
